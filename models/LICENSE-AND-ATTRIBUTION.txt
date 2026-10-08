@@ -1,0 +1,8 @@
+KivLoft third-party asset notice
+Original title: Car
+Original creator: Quaternius
+Source: https://poly.pizza/m/Cz6yDaUcM9
+License: CC0 1.0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Attribution (retain for CC-BY): "Car" by Quaternius, https://poly.pizza/m/Cz6yDaUcM9. Licence at https://creativecommons.org/publicdomain/zero/1.0/
+This archive was prepared from the Poly Pizza API GLB download. The original creator and license retain control.
