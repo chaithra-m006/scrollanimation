@@ -3,10 +3,8 @@ import { Environment, useGLTF } from "@react-three/drei"
 import React, { Suspense, useEffect, useRef } from "react"
 import * as THREE from "three"
 
-const modelUrl = `${import.meta.env.BASE_URL}models/car.glb`
 function SceneController({ progress }) {
-  const { scene } = useGLTF(modelUrl)
-  
+  const { scene } = useThree()
   
   useEffect(() => {
     const color = new THREE.Color().lerpColors(
@@ -95,4 +93,5 @@ export default function CarScene({ onPositionChange }) {
     </div>
   )
 }
-useGLTF.preload(modelUrl)
+
+useGLTF.preload("/models/car.glb")
